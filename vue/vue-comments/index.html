@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vue Comments with Coto</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <ul>
+            <li v-for="comment in comments">
+                {{ comment.body }} - {{ comment.time }} - {{ comment.coto }}
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
